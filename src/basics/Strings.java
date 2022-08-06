@@ -18,8 +18,7 @@ public class Strings {
          */
         System.out.println(name.toLowerCase(Locale.ROOT)); // prints lowercase name
         System.out.println(name.toUpperCase(Locale.ROOT)); // prints uppercase
-        // split(" ") splits the string into an array separated by commas.
-        System.out.println(Arrays.toString(name.split(" ")));
+
         // checks to see if the string ends with the code in quotes.
         System.out.println(name.endsWith("Code"));
         // checks if the name contains a Get string.
@@ -31,9 +30,24 @@ public class Strings {
         System.out.println(name.substring(3, 8));
 
         /*
+        Splits the string into an array of characters.
+
+        [H, e, r, e,  , I,  , a, m, !]
+         */
+        System.out.println(Arrays.toString(name.split("")));
+
+        /*
+        Splits the string into an array of words separated by commas.
+
+        [Here, I, am!]
+        [Here, I, am!]
+         */
+        System.out.println(Arrays.toString(name.split("\\s+")));
+        System.out.println(Arrays.toString(name.split(" ")));
+
+        /*
         We can add strings together. (Concatenating strings)
          */
-
         String lastName = "Bayne";
         String firstName = "Stefan";
         System.out.println(lastName + " " + firstName);
