@@ -1,5 +1,8 @@
 package basics;
 
+import java.util.Arrays;
+import java.util.Locale;
+
 public class DataTypes {
 
     /*
@@ -21,7 +24,6 @@ public class DataTypes {
         float thisFloat = 20.0F; // Float value = fractional 6-7 digits
         double thisDouble = 50.000; // Double value = fractional values 15 digits
         char newChar = 'C'; // character value
-        String newString = "This is a string."; // string = a sequence of characters
         Boolean isTrue = true; // Boolean stores true or false
 
         System.out.println(theByte);
@@ -31,12 +33,55 @@ public class DataTypes {
         System.out.println(thisFloat);
         System.out.println(thisDouble);
         System.out.println(newChar);
-        System.out.println(newString);
         System.out.println(isTrue);
+
+
         /*
-        Here is an example of reference variables.
+        Here is an example of reference types.
+
+        Reference types are created a lot of time and are used majority of the
+        time for Java developers.
+
+        Reference types give you built in behaviors that are not available to
+        primitive types.
+
+        They always start with uppercase.
          */
+        String name = "Get Right Code";
 
+        System.out.println(name.toLowerCase(Locale.ROOT)); // prints lowercase name
+        System.out.println(name.toUpperCase(Locale.ROOT)); // prints uppercase
+        // split(" ") splits the string into an array separated by commas.
+        System.out.println(Arrays.toString(name.split(" ")));
+        // checks to see if the string ends with the code in quotes.
+        System.out.println(name.endsWith("Code"));
+        // checks if the name contains a Get string.
+        System.out.println(name.contains("Get"));
+        // checks to see if name matches regex.
+        System.out.println(name.matches("/\s"));
+        System.out.println(name.repeat(3)); // repeats string
+        // strips string from index(start, end)
+        System.out.println(name.substring(3, 8));
+        /*
+        output:
 
+-128
+-32000
+78838334
+16513151681351
+20.0
+50.0
+C
+true
+get right code
+GET RIGHT CODE
+[Get, Right, Code]
+true
+true
+false
+Get Right CodeGet Right CodeGet Right Code
+ Righ
+
+         */
     }
 }
