@@ -59,5 +59,21 @@ public class MathUtils {
         91.0
         256.0
          */
+
+        /*
+        Here is how you convert a string to a Integer in Java.
+
+        Integer.paresInt(string);
+         */
+
+        String number = "45";
+        int i = Integer.parseInt(number);
+        System.out.println("Stirng converted to an Integer in Java: " + number);
+
+        // reverses and converts the string to int.
+        String newNumber = "100000";
+        int newI = Integer.parseInt(newNumber);
+        System.out.println("String reversed and parsed t0 Int: " + Integer.reverse(newI));
+
     }
 }
