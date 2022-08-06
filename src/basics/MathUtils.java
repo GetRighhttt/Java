@@ -36,6 +36,7 @@ public class MathUtils {
         System.out.println(Math.negateExact(60)); // returns a negative number
         System.out.println(Math.round(109.696)); // rounds to integer
         System.out.println(Math.ceil(90.459)); // rounds to nearest double precision
+        System.out.println(Math.pow(2, 8)); // returns the number to the power of.
 
         /*
         20
@@ -56,6 +57,7 @@ public class MathUtils {
         -60
         110
         91.0
+        256.0
          */
     }
 }
