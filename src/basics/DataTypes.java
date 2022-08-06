@@ -48,7 +48,7 @@ public class DataTypes {
 
         They always start with uppercase.
          */
-        String name = "Get Right Code";
+        String name = "Get Right Code"; //
 
         System.out.println(name.toLowerCase(Locale.ROOT)); // prints lowercase name
         System.out.println(name.toUpperCase(Locale.ROOT)); // prints uppercase
@@ -63,6 +63,7 @@ public class DataTypes {
         System.out.println(name.repeat(3)); // repeats string
         // strips string from index(start, end)
         System.out.println(name.substring(3, 8));
+        System.out.println(name.split(","));
 
         // provides today's date.
         LocalDate now = LocalDate.now();
