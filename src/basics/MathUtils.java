@@ -68,7 +68,7 @@ public class MathUtils {
 
         String number = "45";
         int i = Integer.parseInt(number);
-        System.out.println("Stirng converted to an Integer in Java: " + number);
+        System.out.println("String converted to an Integer in Java: " + number);
 
         // reverses and converts the string to int.
         String newNumber = "100000";
