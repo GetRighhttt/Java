@@ -1,5 +1,6 @@
 package basics;
 
+import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Locale;
 
@@ -62,6 +63,14 @@ public class DataTypes {
         System.out.println(name.repeat(3)); // repeats string
         // strips string from index(start, end)
         System.out.println(name.substring(3, 8));
+
+        // provides today's date.
+        LocalDate now = LocalDate.now();
+        System.out.println(now);
+
+        // provides the month
+        System.out.println(now.getMonth());
+
         /*
         output:
 
@@ -80,8 +89,9 @@ true
 true
 false
 Get Right CodeGet Right CodeGet Right Code
- Righ
-
+Righ
+2022-08-06
+AUGUST
          */
     }
 }
