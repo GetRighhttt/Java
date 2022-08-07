@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70ea57d6-0ecc-42dc-943e-770c68b2c260" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/datastructures/ArraysExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basics/Strings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,21 +32,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
-}</component>
-  <component name="RunManager" selected="Application.Strings">
-    <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.DataTypes" />
+}]]></component>
+  <component name="RunManager" selected="Application.ArraysExample">
+    <configuration name="ArraysExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.ArraysExample" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.Main" />
+    <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.DataTypes" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,7 +72,7 @@
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,7 +85,7 @@
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,7 +98,7 @@
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="datastructures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Strings" />
-        <item itemvalue="Application.MathUtils" />
-        <item itemvalue="Application.DataTypes" />
-        <item itemvalue="Application.Variables" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ArraysExample" />
+        <item itemvalue="Application.basics.Strings" />
+        <item itemvalue="Application.basics.MathUtils" />
+        <item itemvalue="Application.basics.DataTypes" />
+        <item itemvalue="Application.basics.Variables" />
       </list>
     </recent_temporary>
   </component>
