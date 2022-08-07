@@ -53,5 +53,21 @@ public class Strings {
         System.out.println(lastName + " " + firstName);
         // method adds the strings together.
         System.out.println(name.concat(lastName));
+
+        /*
+        Demonstrating the replace all method that really comes in handy when
+        doing string manipulation.
+         */
+        System.out.println("----------------------------------------------------");
+        System.out.println("Demonstrating the replace all method.");
+        System.out.println("Initial String: ");
+        String replaceAllString = "This is a String that we are going to use to replace all the a's with o's.";
+        System.out.println(replaceAllString);
+        System.out.println("String replace all method: ");
+        System.out.println(replaceAllString.replaceAll("a", "o"));
+        /*
+        Output:
+        This is o String thot we ore going to use to reploce oll the o's with o's.
+         */
     }
 }
