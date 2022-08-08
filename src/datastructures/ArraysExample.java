@@ -43,6 +43,11 @@ public class ArraysExample {
         myIntArray[9] = 60;
         System.out.println(java.util.Arrays.toString(myIntArray));
 
+        // here is how we can loop through the elements of an array:
+        for (int i = 0; i < myIntArray.length; i++) {
+            System.out.println(myIntArray[i]);
+        }
+
         // we can also specify elements in the array in one line.
         String[] newStringArray = {"Here", "we", "are."};
         System.out.println(java.util.Arrays.toString(newStringArray));
