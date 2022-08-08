@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70ea57d6-0ecc-42dc-943e-770c68b2c260" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/basics/ForLoops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="70ea57d6-0ecc-42dc-943e-770c68b2c260" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,7 @@
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ForLoops">
+  <component name="RunManager" selected="Application.MethodExamples">
     <configuration name="ForLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.ForLoops" />
       <module name="JavaCode" />
@@ -67,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basics.MathUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.MathUtils" />
+    <configuration name="MethodExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basics.MethodExamples" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="datastructures.*" />
+          <option name="PATTERN" value="basics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodExamples" />
         <item itemvalue="Application.ForLoops" />
         <item itemvalue="Application.datastructures.ArraysExample" />
         <item itemvalue="Application.ListAndStreams" />
         <item itemvalue="Application.basics.Strings" />
-        <item itemvalue="Application.basics.MathUtils" />
       </list>
     </recent_temporary>
   </component>
