@@ -1,5 +1,6 @@
-package datastructures;
+package datastructures.linkedlists;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class CreateLinkedLists {
@@ -54,6 +55,8 @@ public class CreateLinkedLists {
         System.out.println(linkedList.size());
 
         // toArray() method converts this list to an array also.
+        Object[] arrayObject = linkedList.toArray();
+        System.out.println(Arrays.toString(arrayObject));
     }
 
     /*
@@ -61,5 +64,6 @@ public class CreateLinkedLists {
 
     true
     7
+    [90, 10, 60, 300, 30, 100, 240]
      */
 }
