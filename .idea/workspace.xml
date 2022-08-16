@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70ea57d6-0ecc-42dc-943e-770c68b2c260" name="Changes" comment="" />
+    <list default="true" id="70ea57d6-0ecc-42dc-943e-770c68b2c260" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/ArraysExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/ArraysExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ImperativeApproach">
+  <component name="RunManager" selected="Application.datastructures.ArraysExample">
     <configuration name="ForLoops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basics.ForLoops" />
       <module name="JavaCode" />
@@ -105,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.datastructures.ArraysExample" />
         <item itemvalue="Application.ImperativeApproach" />
         <item itemvalue="Application.ReadingInputFromUser" />
         <item itemvalue="Application.MethodExamples" />
         <item itemvalue="Application.ForLoops" />
-        <item itemvalue="Application.datastructures.ArraysExample" />
       </list>
     </recent_temporary>
   </component>
