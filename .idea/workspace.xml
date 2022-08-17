@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70ea57d6-0ecc-42dc-943e-770c68b2c260" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/datastructures/linkedlists/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlists/CreateLinkedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/CreateLinkedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlists/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/linkedlists/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructures/linkedlists/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructures/linkedlists/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.datastructures.linkedlists.CreateLinkedLists">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CreateLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructures.CreateLinkedLists" />
       <module name="JavaCode" />
@@ -81,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingInputFromUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basics.ReadingInputFromUser" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructures.linkedlists.Main" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basics.*" />
+          <option name="PATTERN" value="datastructures.linkedlists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.datastructures.linkedlists.CreateLinkedLists" />
         <item itemvalue="Application.datastructures.DynamicArrayExamples" />
         <item itemvalue="Application.datastructures.ArraysExample" />
         <item itemvalue="Application.ImperativeApproach" />
-        <item itemvalue="Application.ReadingInputFromUser" />
       </list>
     </recent_temporary>
   </component>
