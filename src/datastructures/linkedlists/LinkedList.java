@@ -1,9 +1,6 @@
 package datastructures.linkedlists;
 
 public class LinkedList {
-
-    // could call them head and tail but the java class refers to them
-    // as first and last
     private Node first;
     private Node last;
 
