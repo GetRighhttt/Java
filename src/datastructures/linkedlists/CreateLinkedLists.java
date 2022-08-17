@@ -48,6 +48,9 @@ public class CreateLinkedLists {
         // adds at the beginning of the list.
         linkedList.addFirst(90);
 
+        System.out.println("This will be the output of the Linked List class + " +
+                "that is already built in with Java.");
+
         // can see if the list contains anything.. returns a boolean
         System.out.println(linkedList.contains(10));
 
@@ -57,13 +60,32 @@ public class CreateLinkedLists {
         // toArray() method converts this list to an array also.
         Object[] arrayObject = linkedList.toArray();
         System.out.println(Arrays.toString(arrayObject));
+
+        /*
+        Output:
+
+        true
+        7
+        [90, 10, 60, 300, 30, 100, 240]
+
+        End of LL demonstration example.
+        */
+
+        System.out.println("------------------------------------------------");
+
+        //--------------------------------------------------------------------------
+        //--------------------------------------------------------------------------
+
+        /*
+        Now we are going to use the Linked list object that we created in the
+        LinkedList.java file to show how to use LL objects that we create.
+         */
+        var newList = new LinkedList<>();
+        newList.addLast(10);
+        newList.addLast(20);
+        newList.addLast(30);
+        newList.addLast(40);
+        System.out.println(newList);
     }
 
-    /*
-    Output:
-
-    true
-    7
-    [90, 10, 60, 300, 30, 100, 240]
-     */
 }
