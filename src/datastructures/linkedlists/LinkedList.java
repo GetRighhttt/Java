@@ -140,10 +140,13 @@ public class LinkedList {
             return;
         }
 
-        // first we need to get the previous node
-        var previous = getPreviousNode(last);
-        last = previous;
-        last.next = null;
+        if (isNotEmpty()) {
+
+            // first we need to get the previous node
+            var previous = getPreviousNode(last);
+            last = previous;
+            last.next = null;
+        }
     }
 
     // can use a method to see if the list is empty

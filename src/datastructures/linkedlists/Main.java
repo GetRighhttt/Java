@@ -35,5 +35,7 @@ public class Main {
         // Now we are finally going to check our delete methods
         list.deleteFirst();
         list.deleteLast();
+
+        System.out.println(list);
     }
 }
