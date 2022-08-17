@@ -1,4 +1,4 @@
-package datastructures.linkedlists;
+package datastructures;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -61,31 +61,27 @@ public class CreateLinkedLists {
         Object[] arrayObject = linkedList.toArray();
         System.out.println(Arrays.toString(arrayObject));
 
-        /*
-        Output:
-
-        true
-        7
-        [90, 10, 60, 300, 30, 100, 240]
-
-        End of LL demonstration example.
-        */
-
         System.out.println("------------------------------------------------");
-
-        //--------------------------------------------------------------------------
-        //--------------------------------------------------------------------------
-
-        /*
-        Now we are going to use the Linked list object that we created in the
-        LinkedList.java file to show how to use LL objects that we create.
-         */
         var newList = new LinkedList<>();
         newList.addLast(10);
         newList.addLast(20);
         newList.addLast(30);
         newList.addLast(40);
+
+        // retrieves the head of the element but doesn't remove it.
+        System.out.println(newList.peek());
+
+        System.out.println("Here is the list before we pop an element off of it:");
         System.out.println(newList);
+
+        System.out.println("Here is the element popped afterwards:");
+        // removes and returns the first element of the list.
+        System.out.println(newList.pop());
+        System.out.println("Here is the list:");
+        System.out.println(newList);
+
+        // returns a sorted stream of only distinct(one occurrence) of elements
+        System.out.println(newList.stream().sorted().distinct());
     }
 
 }
