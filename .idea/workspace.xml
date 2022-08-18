@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70ea57d6-0ecc-42dc-943e-770c68b2c260" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/objectorientedprogramming/CarExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/WhatAreObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectorientedprogramming/WhatAreObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objectorientedprogramming/CarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectorientedprogramming/CarExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +40,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.objectorientedprogramming.WhatAreObjects">
-    <configuration name="ImperativeApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionalprogramming.ImperativeApproach" />
+  <component name="RunManager" selected="Application.CarExample">
+    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectorientedprogramming.CarExample" />
       <module name="JavaCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functionalprogramming.*" />
+          <option name="PATTERN" value="objectorientedprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarExample" />
         <item itemvalue="Application.objectorientedprogramming.WhatAreObjects" />
         <item itemvalue="Application.LoopsInJava" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.datastructures.ArraysExample" />
-        <item itemvalue="Application.ImperativeApproach" />
       </list>
     </recent_temporary>
   </component>
