@@ -1,4 +1,4 @@
-package ObjectOrientedProgramming;
+package objectorientedprogramming;
 
 import java.util.Locale;
 

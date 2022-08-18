@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70ea57d6-0ecc-42dc-943e-770c68b2c260" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/WhatAreObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objectorientedprogramming/CarExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/WhatAreObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectorientedprogramming/WhatAreObjects.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WhatAreObjects">
+  <component name="RunManager" selected="Application.objectorientedprogramming.WhatAreObjects">
     <configuration name="ImperativeApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="functionalprogramming.ImperativeApproach" />
       <module name="JavaCode" />
@@ -80,19 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhatAreObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.WhatAreObjects" />
-      <module name="JavaCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ObjectOrientedProgramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="datastructures.ArraysExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datastructures.ArraysExample" />
       <module name="JavaCode" />
@@ -106,9 +94,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="objectorientedprogramming.WhatAreObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectorientedprogramming.WhatAreObjects" />
+      <module name="JavaCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objectorientedprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WhatAreObjects" />
+        <item itemvalue="Application.objectorientedprogramming.WhatAreObjects" />
         <item itemvalue="Application.LoopsInJava" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.datastructures.ArraysExample" />
