@@ -28,6 +28,10 @@ public class _FunctionsExample {
 
         System.out.println(andOneMultiplyByOne.apply(46)); // returns 2350
 
+        /**
+         * BiFunctions are the same except they take two parameters.
+         */
+
     }
 
     // functional approach
