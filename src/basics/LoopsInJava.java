@@ -11,6 +11,8 @@ public class LoopsInJava {
     if/else - when a condition is true, do some logic, else do some other logic.
 
     ternary operator - an if statement with easier syntax.
+
+    And we also see here comparison and logical operators.
      */
     public static void main(String[] args) {
 
