@@ -4,10 +4,15 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 public class _FunctionsExample {
+    // functional approach
+    static Function<String, String> returnTheString = name -> name;
+
     public static void main(String[] args) {
         /*
         Here we show an example of how to use functional programming with a
         declarative approach for creating functions.
+
+        We use the ".apply()" method with Functions.
          */
 
         // this is how we usually call functions in java.
@@ -37,13 +42,10 @@ public class _FunctionsExample {
          * Similar to the reduce function.
          */
         BiFunction<Integer, Integer, Integer> incrementThanMultiply =
-        (numToIncrement, numToMultiply) -> (numToIncrement + 1) * numToMultiply;
+                (numToIncrement, numToMultiply) -> (numToIncrement + 1) * numToMultiply;
         System.out.println(incrementThanMultiply.apply(10, 20)); // returns 220
 
     }
-
-    // functional approach
-    static Function<String, String> returnTheString = name -> name;
 
     // typical approach aka Imperative approach
     static int decrement(int a) {

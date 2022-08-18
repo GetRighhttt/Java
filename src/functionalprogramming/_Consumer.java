@@ -9,7 +9,9 @@ public class _Consumer {
 
    A BiConsumer accepts two arguments and returns no result.
 
-   It's basically a void function
+   It's basically a void function.
+
+   We use the ".accept()" method with Consumers.
     */
     static Consumer<Customer> greetThem = customer ->
             System.out.println("Hello " + customer.name + " and here's my number " +
