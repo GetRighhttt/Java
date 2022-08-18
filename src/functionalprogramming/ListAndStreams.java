@@ -1,4 +1,4 @@
-package datastructures;
+package functionalprogramming;
 
 import java.util.Arrays;
 import java.util.List;
@@ -17,6 +17,13 @@ public class ListAndStreams {
 
         // this is how we declare a list in Java.
         List<Integer> numbers = Arrays.asList(12, 33, 14, 55, 46, 7, 98, 9);
+
+        /*
+        Java8 came with an API that allows us to create code a lot easier.
+
+        Stream() takes us to an abstraction mode where we can optimize our java
+        code.
+         */
 
         // map() method applies a condition to all elements in the List.
         System.out.println(numbers.stream().map(x -> x * x).collect(Collectors.toList()));

@@ -1,5 +1,6 @@
 package functionalprogramming;
 
+import java.util.function.BiFunction;
 import java.util.function.Function;
 
 public class _FunctionsExample {
@@ -30,7 +31,14 @@ public class _FunctionsExample {
 
         /**
          * BiFunctions are the same except they take two parameters.
+         *
+         * Takes two integer arguments and returns one integer.
+         *
+         * Similar to the reduce function.
          */
+        BiFunction<Integer, Integer, Integer> incrementThanMultiply =
+        (numToIncrement, numToMultiply) -> (numToIncrement + 1) * numToMultiply;
+        System.out.println(incrementThanMultiply.apply(10, 20)); // returns 220
 
     }
 
