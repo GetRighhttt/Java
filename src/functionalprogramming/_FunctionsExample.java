@@ -4,16 +4,19 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 public class _FunctionsExample {
-    // functional approach
+    /*
+      Here we show an example of how to use functional programming with a
+      declarative approach for creating functions.
+
+      Functions always take in arguments AND return arguments.
+
+      Thats with regular Functions and BiFunctions.
+
+      We use the ".apply()" method with Functions.
+       */
     static Function<String, String> returnTheString = name -> name;
 
     public static void main(String[] args) {
-        /*
-        Here we show an example of how to use functional programming with a
-        declarative approach for creating functions.
-
-        We use the ".apply()" method with Functions.
-         */
 
         // this is how we usually call functions in java.
         System.out.println(decrement(50)); // returns 49
