@@ -1,0 +1,14 @@
+Pure Functional Programming Rules:
+
+------------------------------------------------------------------------------
+
+1. There should be no state around your functions.
+
+2. Functions should have to be pure functions; shouldn't depend on any state:
+(global variables or methods).
+
+3. Functions should have no side affects.
+
+4. They are higher-order functions if:
+    a. Takes one or more functions as parameters;
+    b. or the functions returns another functions as a result.
