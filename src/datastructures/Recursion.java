@@ -29,8 +29,8 @@ public class Recursion {
 
     public static int FactorialDigits(int n) { // = 5040
 
-        // if index is 1, return the array
-        if (n == 1) {
+        // if index is 0, return the array
+        if (n == 0) {
             return 1;
         } else { // else return n * factorial(n - 1)
             return n * FactorialDigits(n - 1);
