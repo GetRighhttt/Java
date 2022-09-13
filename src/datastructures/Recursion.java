@@ -28,6 +28,7 @@ public class Recursion {
         return arr[n] + SumDigits(n - 1);
     }
 
+    // Factorial recursion example
     public static int FactorialDigits(int n) { // = 5040
 
         // if index is 0, return the array
